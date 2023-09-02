@@ -27,7 +27,7 @@ There are several ways to run a Spring Boot application on your local machine. O
 
 Alternatively you can use the [Gradle](https://docs.gradle.org/current/samples/sample_building_java_applications.html).
 
-## How to test app?
+## How to test the app?
 
 After running server locally - open Postman and make an api request (username example: iCharliee)
 
