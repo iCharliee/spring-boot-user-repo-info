@@ -21,6 +21,7 @@ public class GithubController {
         if (userLogin == null || userLogin.trim().isEmpty()) {
             throw new UserNotFoundException("User login is required.");
         }
+
         return githubService.fetchRepositories(userLogin);
     }
 }
