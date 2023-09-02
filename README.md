@@ -10,7 +10,7 @@ For further reference, please consider the following sections:
 * [Spring Web](https://docs.spring.io/spring-boot/docs/3.1.3/reference/htmlsingle/index.html#web)
 * [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/3.1.3/reference/htmlsingle/index.html#using.devtools)
 # About
-The app shows you a list all user's GitHub repositories after passing a username as a parameter to the endpoint
+The app shows you a list of all user's GitHub repositories after passing a username as a parameter to the endpoint
 
 ## Requirements
 
