@@ -3,7 +3,6 @@ package com.springproject.userrepoinfo.controller;
 import com.springproject.userrepoinfo.exception.UserNotFoundException;
 import com.springproject.userrepoinfo.service.GithubService;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.Map;
@@ -18,7 +17,7 @@ public class GithubController {
     }
 
     @GetMapping("/github/repos")
-    public List<Map<String, Object>> getRepositories(@RequestParam(required = false) String userLogin) {
+    public List<Map<String, Object>> getRepositories(String userLogin) {
         if (userLogin == null || userLogin.trim().isEmpty()) {
             throw new UserNotFoundException("User login is required.");
         }
